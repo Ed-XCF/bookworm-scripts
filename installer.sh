@@ -14,7 +14,7 @@ xdg-user-dirs-update
 mkdir ~/Screenshots/
 
 # PICK YOUR X11 Window Managers (Uncomment if you want these installed)
-# bash ~/bookworm-scripts/resources/bspwm-commands
+bash ~/bookworm-scripts/resources/bspwm-commands
 # bash ~/bookworm-scripts/resources/dk-commands
 # bash ~/bookworm-scripts/resources/dwm-commands
 # bash ~/bookworm-scripts/resources/qtile-commands
@@ -42,18 +42,18 @@ sudo apt install -y kitty tilix
 sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pamixer
 
 # Neofetch
-sudo apt install -y neofetch
+# sudo apt install -y neofetch
 
 # Installation for Appearance management
-sudo apt install -y lxappearance 
+# sudo apt install -y lxappearance 
 
 # Browser Installation (eg. chromium)
-sudo apt install -y firefox-esr 
+# sudo apt install -y firefox-esr 
 
 # Desktop background browser/handler 
 # feh --bg-fill /path/to/directory 
 # sudo apt install -y nitrogen 
-sudo apt install -y feh
+# sudo apt install -y feh
 
 # Fonts and icons for now
 sudo apt install -y fonts-recommended fonts-ubuntu fonts-font-awesome fonts-terminus papirus-icon-theme
@@ -61,7 +61,7 @@ sudo apt install -y fonts-recommended fonts-ubuntu fonts-font-awesome fonts-term
 # EXA installation
 # replace ls command in .bashrc file with line below
 # alias ls='exa -al --long --header --color=always --group-directories-first' 
-sudo apt install -y exa
+# sudo apt install -y exa
 
 
 # Printing and bluetooth (if needed)
@@ -83,20 +83,20 @@ sudo apt install -y picom rofi dunst libnotify-bin unzip wmctrl xdotool libnotif
 
 # My Favorites
 # Multimedia/GFX
-sudo apt install -y mpv qimgv scrot gimp obs-studio mkvtoolnix-gui redshift eog brightnessctl
+# sudo apt install -y mpv qimgv scrot gimp obs-studio mkvtoolnix-gui redshift eog brightnessctl
 
 # PDF 
-sudo apt install -y  evince pdfarranger
+# sudo apt install -y  evince pdfarranger
 
 # Others
 sudo apt install -y numlockx figlet galculator cpu-x udns-utils whois curl tree
 
 # Install Lightdm Console Display Manager
-# sudo apt install -y lightdm lightdm-gtk-greeter-settings
-# sudo systemctl enable lightdm
+sudo apt install -y lightdm lightdm-gtk-greeter-settings
+sudo systemctl enable lightdm
 
 # Install the Ly Console Display Manager
-bash ~/bookworm-scripts/ly.sh
+# bash ~/bookworm-scripts/ly.sh
 
 
 ########################################################
