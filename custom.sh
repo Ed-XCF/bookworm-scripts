@@ -1,22 +1,22 @@
 #!/usr/bin/env bash
 
-cd /home/tofu/Downloads
+cd ~/Downloads
 git clone https://github.com/drewgrif/jag_dots
 
-\cp -r /home/tofu/Downloads/jag_dots/bin/ /home/tofu/
-chmod +x /home/tofu/bin/*
-sudo cp /home/tofu/bin/pulseaudio-control.bash /bin/
-\cp -r /home/tofu/Downloads/jag_dots/.config/backgrounds/ /home/tofu/.config/
-\cp -r /home/tofu/Downloads/jag_dots/.config/bspwm/ /home/tofu/.config/
-# \cp -r /home/tofu/Downloads/jag_dots/.config/dk/ /home/tofu/.config/
-# \cp -r /home/tofu/Downloads/jag_dots/.config/dunst/ /home/tofu/.config/
-# \cp -r /home/tofu/Downloads/jag_dots/.config/i3/ /home/tofu/.config/
-# \cp -r /home/tofu/Downloads/jag_dots/.config/picom/ /home/tofu/.config/
-\cp -r /home/tofu/Downloads/jag_dots/.config/polybar/ /home/tofu/.config/
-# \cp -r /home/tofu/Downloads/jag_dots/.config/qtile/ /home/tofu/.config/
-\cp -r /home/tofu/Downloads/jag_dots/.config/sxhkd/ /home/tofu/.config/
-\cp -r /home/tofu/Downloads/jag_dots/.config/rofi/ /home/tofu/.config/
-\cp -r /home/tofu/Downloads/jag_dots/.config/neofetch/ /home/tofu/.config/
+\cp -r ~/Downloads/jag_dots/bin/ ~
+chmod +x ~/bin/*
+sudo cp ~/bin/pulseaudio-control.bash /bin/
+\cp -r ~/Downloads/jag_dots/.config/backgrounds/ ~/.config/
+\cp -r ~/Downloads/jag_dots/.config/bspwm/ ~/.config/
+# \cp -r ~/Downloads/jag_dots/.config/dk/ ~/.config/
+# \cp -r ~/Downloads/jag_dots/.config/dunst/ ~/.config/
+# \cp -r ~/Downloads/jag_dots/.config/i3/ ~/.config/
+# \cp -r ~/Downloads/jag_dots/.config/picom/ ~/.config/
+\cp -r ~/Downloads/jag_dots/.config/polybar/ ~/.config/
+# \cp -r ~/Downloads/jag_dots/.config/qtile/ ~/.config/
+\cp -r ~/Downloads/jag_dots/.config/sxhkd/ ~/.config/
+\cp -r ~/Downloads/jag_dots/.config/rofi/ ~/.config/
+\cp -r ~/Downloads/jag_dots/.config/neofetch/ ~/.config/
 
 # DWM patched with slstatus patched
-# bash /home/tofu/bookworm-scripts/resources/dwm-custom
+# bash ~/bookworm-scripts/resources/dwm-custom
