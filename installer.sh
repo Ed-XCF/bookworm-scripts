@@ -42,10 +42,10 @@ sudo apt install -y kitty tilix
 sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pamixer
 
 # Neofetch
-# sudo apt install -y neofetch
+sudo apt install -y neofetch
 
 # Installation for Appearance management
-# sudo apt install -y lxappearance 
+sudo apt install -y lxappearance 
 
 # Browser Installation (eg. chromium)
 # sudo apt install -y firefox-esr 
