@@ -8,10 +8,10 @@ chmod +x ~/bin/*
 sudo cp ~/bin/pulseaudio-control.bash /bin/
 \cp -r ~/Downloads/jag_dots/.config/backgrounds/ ~/.config/
 \cp -r ~/Downloads/jag_dots/.config/bspwm/ ~/.config/
-\cp -r ~/Downloads/jag_dots/.config/dk/ ~/.config/
-\cp -r ~/Downloads/jag_dots/.config/dunst/ ~/.config/
+# \cp -r ~/Downloads/jag_dots/.config/dk/ ~/.config/
+# \cp -r ~/Downloads/jag_dots/.config/dunst/ ~/.config/
 # \cp -r ~/Downloads/jag_dots/.config/i3/ ~/.config/
-\cp -r ~/Downloads/jag_dots/.config/picom/ ~/.config/
+# \cp -r ~/Downloads/jag_dots/.config/picom/ ~/.config/
 \cp -r ~/Downloads/jag_dots/.config/polybar/ ~/.config/
 # \cp -r ~/Downloads/jag_dots/.config/qtile/ ~/.config/
 \cp -r ~/Downloads/jag_dots/.config/sxhkd/ ~/.config/
@@ -19,4 +19,4 @@ sudo cp ~/bin/pulseaudio-control.bash /bin/
 # \cp -r ~/Downloads/jag_dots/.config/neofetch/ ~/.config/
 
 # DWM patched with slstatus patched
-bash ~/bookworm-scripts/resources/dwm-custom
+# bash ~/bookworm-scripts/resources/dwm-custom
